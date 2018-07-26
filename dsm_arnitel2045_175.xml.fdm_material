@@ -3,21 +3,21 @@
     <metadata>
         <name>
             <brand>DSM</brand>
-            <material>PA copolymer</material>
+            <material>TPC</material>
             <color>Generic</color>
-            <label>Novamid1070</label>
+            <label>Arnitel2045</label>
         </name>
-        <GUID>edcde954-ee11-4a23-9f11-56d2aa03284b</GUID>
+        <GUID>fc67dfa2-7f71-4ca8-8ba5-dfe802fda22c</GUID>
         <version>1</version>
-        <color_code>#f395f9</color_code>
+        <color_code>#ee51f8</color_code>
     </metadata>
     <properties>
         <density>1.10</density>
         <diameter>1.75</diameter>
     </properties>
     <settings>
-        <setting key="print temperature">270</setting>
-        <setting key="heated bed temperature">85</setting>
+        <setting key="print temperature">215</setting>
+        <setting key="heated bed temperature">50</setting>
         <setting key="standby temperature">160</setting>
 
         <machine>
@@ -25,8 +25,8 @@
             <setting key="print cooling">40.0</setting>
             <setting key="standby temperature">160</setting>
             <setting key="retraction speed">20</setting>
-            <setting key="heated bed temperature">85</setting>
-            <setting key="print temperature">270</setting>
+            <setting key="heated bed temperature">50</setting>
+            <setting key="print temperature">215</setting>
             <hotend id="0.25 mm">
                 <setting key="hardware compatible">yes</setting>
                 <setting key="retraction amount">1.0</setting>
@@ -39,12 +39,18 @@
                 <setting key="hardware compatible">yes</setting>
                 <setting key="retraction amount">1.5</setting>
             </hotend>
+            <hotend id="0.25mm thermoplastic extruder">
+                <setting key="hardware compatible">yes</setting>
+                <setting key="retraction amount">1.0</setting>
+            </hotend>
+            <hotend id="0.4mm thermoplastic extruder">
+                <setting key="hardware compatible">yes</setting>
+                <setting key="retraction amount">1.0</setting>
+            </hotend>
+            <hotend id="0.8mm thermoplastic extruder">
+                <setting key="hardware compatible">yes</setting>
+                <setting key="retraction amount">1.5</setting>
+            </hotend>
         </machine>
-
-        <machine>
-           <machine_identifier manufacturer="Robo" product="Robo R2" />
-           <machine_identifier manufacturer="Robo" product="Robo R1" />
-        </machine>
-
     </settings>
 </fdmmaterial>
