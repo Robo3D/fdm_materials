@@ -20,9 +20,10 @@ Generic PLA 1.75mm profile. The data in this file may not be correct for your sp
         <diameter>1.75</diameter>
     </properties>
     <settings>
-        <setting key="print temperature">200</setting>
+        <setting key="print temperature">190</setting>
         <setting key="heated bed temperature">60</setting>
-        <setting key="standby temperature">175</setting>
+        <setting key="standby temperature">150</setting>
+        <setting key="print cooling">100.0</setting>
         <setting key="adhesion tendency">0</setting>
         <setting key="surface energy">100</setting>
 
@@ -35,7 +36,7 @@ Generic PLA 1.75mm profile. The data in this file may not be correct for your sp
             <hotend id="0.4 mm" />
             <hotend id="0.4 mm 2-fans" />
         </machine>
-        
+
         <machine>
             <machine_identifier manufacturer="Cartesio bv" product="cartesio" />
             <setting key="print cooling">40.0</setting>
