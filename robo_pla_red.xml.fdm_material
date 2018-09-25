@@ -20,6 +20,5 @@
       <setting key="standby temperature">150.0</setting>
       <setting key="material flow">94.0</setting>
       <setting key="print cooling">100.0</setting>
-      </machine>
     </settings>
     </fdmmaterial>
