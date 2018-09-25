@@ -17,10 +17,7 @@
         <diameter>1.75</diameter>
     </properties>
     <settings>
-        <setting key="print temperature">210</setting>
-        <machine>
-          <machine_identifier manufacturer="Robo" product="Robo R2" />
-          <machine_identifier manufacturer="Robo" product="Robo R2 Dual" />
-        </machine>
+        <setting key="print temperature">200</setting>
+        <setting key="standby temperature">175</setting>
     </settings>
 </fdmmaterial>

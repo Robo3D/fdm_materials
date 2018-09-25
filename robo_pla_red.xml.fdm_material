@@ -16,28 +16,10 @@
     </properties>
     <settings>
       <setting key="print temperature">190.0</setting>
-      <setting key="standby temperature">180.0</setting>
-      <setting key="material flow">90</setting>
-      <setting key="print cooling">100</setting>
-      <machine>
-        <machine_identifier manufacturer="Robo" product="robor2" />
-        <setting key="print temperature">190</setting>
-        <setting key="material initial print temperature">200.0</setting>
-        <setting key="heated bed temperature">60</setting>
-        <setting key="print cooling">100</setting>
-      </machine>
-      <machine>
-        <machine_identifier manufacturer="Robo" product="Robo C2" />
-        <setting key="print temperature">190</setting>
-        <setting key="material initial print temperature">200.0</setting>
-        <setting key="print cooling">100</setting>
-      </machine>
-      <machine>
-        <machine_identifier manufacturer="Robo" product="Robo R1+" />
-        <setting key="print temperature">222</setting>
-        <setting key="material initial print temperature">232.0</setting>
-        <setting key="print cooling">100</setting>
-        <setting key="heated bed temperature">60</setting>
+      <setting key="heated bed temperature">60</setting>
+      <setting key="standby temperature">150.0</setting>
+      <setting key="material flow">94.0</setting>
+      <setting key="print cooling">100.0</setting>
       </machine>
     </settings>
     </fdmmaterial>
